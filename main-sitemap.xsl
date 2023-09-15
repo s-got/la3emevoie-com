@@ -143,10 +143,3 @@
 		</html>
 	</xsl:template>
 	</xsl:stylesheet>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: troisieme.vps005.visible.be @ 2023-09-14 20:09:33 by W3 Total Cache
--->
