@@ -90,8 +90,7 @@ if (null !== form_config_element) {
                 // Check if its Contact Form 7.
                 if (form.className.includes('wpcf7-form')) {
                     // Get the current form id.
-                    let parent_id = form.parentNode.id.split('-');
-                    form_id = parent_id[1].substring(1);
+                    form_id = form.parentNode.id;
                 } else if (form.parentNode.className.includes('gform_wrapper')) {
                     // Get the current form id.
                     let form_id_data = form.id.split('_');
